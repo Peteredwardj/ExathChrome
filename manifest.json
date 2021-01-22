@@ -1,0 +1,23 @@
+{
+    "name":"Exath Companion",
+    "version":"0.0.7",
+    "permissions": [
+        "storage"],
+    "manifest_version":2,
+    "icons":{
+        "128":"logos/icon128.png"
+    },
+    "description":"Exath Monitor's Custom ALO",
+    "browser_action":
+    {
+        "default_popup":"popup.html",
+        "default_title":"ALO",
+        "default_icon": {
+            "250": "logos/newnew.png" }
+        
+    },
+    "background":{
+        "page": "background.html",
+        "persistent": true
+    }
+}
